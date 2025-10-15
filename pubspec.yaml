@@ -1,0 +1,79 @@
+name: fap_groupseven
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  html: ^0.15.0
+  youtube_player_flutter: ^9.1.1
+  video_player: ^2.9.2
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/base 4.png
+    - assets/back_button.png
+    - assets/instruments/guitar.png
+    - assets/instruments/flute.png
+    - assets/instruments/violin.png
+    - assets/instruments/harp.png
+    - assets/instruments/bass_guitar.png
+    - assets/instruments/trumpet.png
+    - assets/instruments/drums.png
+    - assets/instruments/piano.png
+    - assets/instruments/xylophone.png
+    - assets/animals/bird.png
+    - assets/animals/cat.png
+    - assets/animals/cow.png
+    - assets/animals/dog.png
+    - assets/animals/elephant.png
+    - assets/animals/frog.png
+    - assets/animals/lion.png
+    - assets/animals/monkey.png
+    - assets/animals/snake.png
+    - assets/instruments/guitar.wav
+    - assets/instruments/flute.wav
+    - assets/instruments/violin.wav
+    - assets/instruments/harp.wav
+    - assets/instruments/bass_guitar.wav
+    - assets/instruments/trumpet.wav
+    - assets/instruments/drums.wav
+    - assets/instruments/piano.wav
+    - assets/instruments/xylophone.wav
+    - assets/animals/bird.wav
+    - assets/animals/cat.wav
+    - assets/animals/cow.wav
+    - assets/animals/dog.wav
+    - assets/animals/elephant.wav
+    - assets/animals/frog.wav
+    - assets/animals/lion.wav
+    - assets/animals/monkey.wav
+    - assets/animals/snake.wav
+
+  fonts:
+    - family: DynaPuff
+      fonts:
+        - asset: fonts/DynaPuff-VariableFont_wdth,wght.ttf
+
+    - family: WorkSans
+      fonts:
+        - asset: fonts/WorkSans-Regular.ttf
